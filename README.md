@@ -33,7 +33,7 @@ At the left of our home page, you will be able to see a form with five fields:
 
 ![Filtered data table](/resources/filtered_data_table.png)
 
-You can enter one or all the five fields. Please, **consider** you have to type the exact word or phrase into the field. If no exact matches are found, your query will return no results. 
+You can enter one or all the five fields. Please, consider you have to type the **exact word or phrase** into the field. If no exact matches are found, your query will return no results. 
 
 To apply the filters to the data table, you can press the "Enter" key after typing into a field. An alternative method to apply the filter is to click on some other field in the form. The table will refresh itself everytime you change the filtering criteria.
 
