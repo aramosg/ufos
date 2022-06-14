@@ -47,14 +47,37 @@ The website that will be built will allow the users to filter the data table usi
 
 ## Results - How to perform a search?
 
-When loading the page for the first time, the full data table will be loaded. If the user is curious enough, he/she will be able to scroll through the whole data set.
+When loading the page for the first time, the full data table will be loaded and displayed. If the user is curious enough, he/she will be able to scroll through the whole data set. Fortunately, we can also filer the data to find especific records.
 
 **Initial page - full data table**
-![Observations for June](/resources/homepage_full_data_table.png)
+
+![Full data table - initial state](/resources/full_data_table.png)
 
 ### Performing a search using the available filters
+At the left of our home page, you will be able to see a form with five fields:
+1. Date - Enter the date of the sighting you want to find
+2. City - Enter the City where the sighting was reported
+3. State - Enter the State where the sighting was reported
+4. Country - Enter the Country where the sighting was reported
+5. Shape - Enter the shape of the reported UFO
+
+**Filtering data - using the form**
+
+![Filtered data table](/resources/filtered_data_table.png)
+
+
+You can enter one or all the five fields. Please, **consider** you have to type the exact word or phrase into the field. If no exact matches are found, your query will return no results. 
+
+To apply the filters to the data table, you can press the "Enter" key after typing into a field. An alternative method to apply the filter is to click on some other field in the form. The table will refresh itself everytime you change the filtering criteria.
 
 ### Resetting the filters - showing the whole data set
+
+To reset the data table, you can either set to blank all fields in the form, or you can refresh the homepage to its initial stage. 
+
+**Resetting the form**
+
+![Empty form](/resources/form.png)
+
 
 
 ## Summary
