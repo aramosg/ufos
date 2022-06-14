@@ -60,7 +60,7 @@ function updateFilters() {
   
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
-    //console.log( "Los filtros:" );
+    //console.log( "Filters:" );
     //console.log( filters );
   
     // 9. Loop through all of the filters and keep any data that
@@ -70,20 +70,7 @@ function updateFilters() {
       //console.log( "Valor: " + value );
 
       filteredData = filteredData.filter( row => row[key] === value );
-      //console.log( filteredData );
-      /*
-      if( key === "datetime") {
-        filteredData = filteredData.filter( row => row.datetime === value );
-      } else if( key === "city" ) {
-        filteredData = filteredData.filter( row => row.city === value );
-      } else if( key === "state" ) {
-        filteredData = filteredData.filter( row => row.state === value );
-      } else if( key === "country" ) {
-        filteredData = filteredData.filter( row => row.country === value );
-      } else if( key === "shape") {
-        filteredData = filteredData.filter( row => row.shape === value );
-      }
-      */
+      console.log( filteredData );
     }
   
     // 10. Finally, rebuild the table using the filtered data
@@ -92,14 +79,6 @@ function updateFilters() {
   
   // 2. Attach an event to listen for changes to each filter
   d3.selectAll( "input" ).on( "change", updateFilters );
-
-  /*
-  d3.selectAll( "#datetime" ).on( "change", updateFilters );
-  d3.selectAll( "#city" ).on( "change", updateFilters );
-  d3.selectAll( "#state" ).on( "change", updateFilters );
-  d3.selectAll( "#country" ).on( "change", updateFilters );
-  d3.selectAll( "#shape" ).on( "change", updateFilters );
-  */
   
   // Build the table when the page loads
   buildTable(tableData);
